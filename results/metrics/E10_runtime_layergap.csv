@@ -1,0 +1,11 @@
+stage,seconds,ms_per_sample,MB
+Load harmonised cohorts,0.2743458980003197,,
+"Pathway encoder fit (b_g estimation, gene sets)",0.03951323900037096,,
+"Pathway encoding of training samples (G,T,P,U)",0.5092067409996162,,
+"Single block model, C selection + 1 fit",0.07604995600013353,,
+"Bootstrap ensemble, 20 fits (uncertainty estimate)",0.05404024700055743,,
+"Full LayerGap training (4 blocks, OOF stacking)",1.5651544930005912,,
+"Inference, 42 samples (encoding + ensemble + fusion)",0.44015873500029556,10.479969880959418,
+Inference without bootstrap ensemble (n_boot=1),0.41010788599942316,9.764473476176741,
+"Single-patient report (probability, uncertainty, block contributions)",0.43065025050009353,430.65025050009353,
+Peak Python memory during training (MB),,,64.28105

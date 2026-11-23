@@ -1,0 +1,191 @@
+05:15:40 batch
+     layer   stage  silhouette_by_subcohort  n_features
+0      RNA  before                    0.594       12505
+1      RNA   after                   -0.001       12505
+2  Protein  before                    0.143        6490
+3  Protein   after                   -0.002        6490
+05:15:40 coupling
+n_genes                                5925.0000
+median_r_all                              0.2883
+median_r_low                              0.2561
+median_r_high                             0.3334
+median_delta                              0.0528
+frac_genes_lower_coupling_in_high         0.3401
+perm_p_two_sided                          0.0619
+null_median_delta_mean                    0.0090
+median_sd_ratio_RNA_high_vs_low           1.1531
+median_sd_ratio_protein_high_vs_low       1.0239
+median_delta_INI                          0.0439
+median_delta_EXP                          0.0466
+wilcoxon_p_INI                            0.0000
+wilcoxon_p_EXP                            0.0000
+dtype: float64
+                                               pathway  n_genes  ...  perm_p     fdr
+107                              HALLMARK_ANGIOGENESIS       19  ...  0.6573  0.7458
+116                         HALLMARK_KRAS_SIGNALING_DN       26  ...  0.9221  0.9221
+16            Glycine, serine and threonine metabolism       33  ...  0.8142  0.8438
+1                              Beta-alanine metabolism       13  ...  0.8551  0.8699
+106                            HALLMARK_UV_RESPONSE_DN       80  ...  0.7063  0.7863
+89                         HALLMARK_HEDGEHOG_SIGNALING       15  ...  0.8302  0.8518
+47   Beta oxidation of even-chain fatty acids (mito...       15  ...  0.8152  0.8438
+29           Phosphatidylinositol phosphate metabolism       10  ...  0.8661  0.8735
+71                            HALLMARK_MITOTIC_SPINDLE      119  ...  0.8152  0.8438
+87                            HALLMARK_APICAL_JUNCTION      103  ...  0.7293  0.8037
+78                            HALLMARK_NOTCH_SIGNALING       10  ...  0.7952  0.8438
+48   Beta oxidation of odd-chain fatty acids (mitoc...       11  ...  0.7393  0.8037
+
+[12 rows x 5 columns]
+05:18:55 prioritisation
+05:19:01 stability bootstrap 0
+05:19:06 stability bootstrap 1
+05:19:10 stability bootstrap 2
+05:19:15 stability bootstrap 3
+05:19:20 stability bootstrap 4
+05:19:24 stability bootstrap 5
+05:19:28 stability bootstrap 6
+05:19:33 stability bootstrap 7
+05:19:37 stability bootstrap 8
+05:19:42 stability bootstrap 9
+05:19:46 stability bootstrap 10
+05:19:50 stability bootstrap 11
+05:19:55 stability bootstrap 12
+05:20:00 stability bootstrap 13
+05:20:05 stability bootstrap 14
+05:20:09 stability bootstrap 15
+05:20:13 stability bootstrap 16
+05:20:17 stability bootstrap 17
+05:20:22 stability bootstrap 18
+05:20:26 stability bootstrap 19
+05:20:31 stability bootstrap 20
+05:20:36 stability bootstrap 21
+05:20:40 stability bootstrap 22
+05:20:44 stability bootstrap 23
+05:20:48 stability bootstrap 24
+05:20:52 stability bootstrap 25
+05:20:57 stability bootstrap 26
+05:21:01 stability bootstrap 27
+05:21:06 stability bootstrap 28
+05:21:10 stability bootstrap 29
+                          ranking  mean_jaccard_top20     sd
+0                    LayerGap MAP               0.248  0.086
+1  EN-concat (pathway-aggregated)               0.126  0.072
+2              Univariate U-score               0.532  0.126
+05:21:10 replication
+                                              pathway  ...  U_replicates
+0                Fatty acid biosynthesis (even-chain)  ...          True
+1                     Chondroitin sulfate degradation  ...         False
+2                  HALLMARK_UNFOLDED_PROTEIN_RESPONSE  ...         False
+3                          HALLMARK_PROTEIN_SECRETION  ...         False
+4            Glycine, serine and threonine metabolism  ...         False
+5                                 HALLMARK_MYOGENESIS  ...         False
+6                             Fatty acid biosynthesis  ...          True
+7                       Inositol phosphate metabolism  ...         False
+8       Glycosphingolipid biosynthesis-ganglio series  ...          True
+9                                    Protein assembly  ...         False
+10                        Heparan sulfate degradation  ...         False
+11                            HALLMARK_APICAL_SURFACE  ...         False
+12                                Tyrosine metabolism  ...         False
+13                           HALLMARK_HEME_METABOLISM  ...         False
+14                             Glutathione metabolism  ...         False
+15          Phosphatidylinositol phosphate metabolism  ...         False
+16                          HALLMARK_MTORC1_SIGNALING  ...         False
+17                                N-glycan metabolism  ...          True
+18                               Galactose metabolism  ...         False
+19                        HALLMARK_TGF_BETA_SIGNALING  ...         False
+20                                Thiamine metabolism  ...         False
+21                            Sphingolipid metabolism  ...         False
+22  Beta oxidation of unsaturated fatty acids (n-9...  ...          True
+23  Beta oxidation of unsaturated fatty acids (n-7...  ...          True
+24                               Butanoate metabolism  ...         False
+
+[25 rows x 5 columns]
+                                              pathway  ...     fdr
+0                Fatty acid biosynthesis (even-chain)  ...  0.0265
+1                     Chondroitin sulfate degradation  ...  0.0006
+2                  HALLMARK_UNFOLDED_PROTEIN_RESPONSE  ...  0.0000
+3                          HALLMARK_PROTEIN_SECRETION  ...  0.1228
+4            Glycine, serine and threonine metabolism  ...  0.0000
+5                                 HALLMARK_MYOGENESIS  ...  0.3371
+6                             Fatty acid biosynthesis  ...  0.0043
+7                       Inositol phosphate metabolism  ...  0.0077
+8       Glycosphingolipid biosynthesis-ganglio series  ...  0.5797
+9                                    Protein assembly  ...  0.3820
+10                        Heparan sulfate degradation  ...  0.0003
+11                            HALLMARK_APICAL_SURFACE  ...  0.1841
+12                                Tyrosine metabolism  ...  0.0013
+13                           HALLMARK_HEME_METABOLISM  ...  0.0001
+14                             Glutathione metabolism  ...  0.1939
+15          Phosphatidylinositol phosphate metabolism  ...  0.1934
+16                          HALLMARK_MTORC1_SIGNALING  ...  0.0057
+17                                N-glycan metabolism  ...  0.0051
+18                               Galactose metabolism  ...  0.1475
+19                        HALLMARK_TGF_BETA_SIGNALING  ...  0.1228
+20                            Sphingolipid metabolism  ...  0.8330
+21  Beta oxidation of unsaturated fatty acids (n-9...  ...  0.0000
+22  Beta oxidation of unsaturated fatty acids (n-7...  ...  0.0000
+23                               Butanoate metabolism  ...  0.1939
+
+[24 rows x 7 columns]
+       gene  beta_TP  AUC_INI   p_INI  ...  fdr_INI  fdr_EXP replicated  mean_AUC
+331  TMED10   0.0652   0.6445  0.0116  ...   0.1515   0.0068      False    0.6963
+48    BHMT2   0.6642   0.3291  0.0028  ...   0.1012   0.0174      False    0.3065
+214   MYO1C   0.2170   0.3472  0.0076  ...   0.1515   0.0163      False    0.3113
+311  SORBS3   0.4045   0.3404  0.0053  ...   0.1357   0.0510      False    0.3235
+153   HYOU1   0.6694   0.6449  0.0114  ...   0.1515   0.0351      False    0.6736
+12     AGRN   0.1156   0.3487  0.0082  ...   0.1515   0.0572      False    0.3298
+316   SRPRB   0.4467   0.6453  0.0112  ...   0.1515   0.0682      False    0.6646
+244  PI4K2A   0.2853   0.6611  0.0049  ...   0.1346   0.1446      False    0.6599
+283    RER1   0.1630   0.6755  0.0022  ...   0.0866   0.1659      False    0.6566
+7     ACOT8   0.1885   0.6868  0.0011  ...   0.0619   0.2066      False    0.6566
+347   VAMP7   0.0869   0.7000  0.0005  ...   0.0619   0.2944      False    0.6546
+55    CDH13   0.8355   0.3713  0.0247  ...   0.1697   0.0785      False    0.3466
+295  SEC22B   0.4106   0.6325  0.0207  ...   0.1574   0.1017      False    0.6519
+334    TNS2   0.5196   0.3551  0.0114  ...   0.1515   0.1446      False    0.3506
+128    GBF1   0.1163   0.6894  0.0009  ...   0.0619   0.3150      False    0.6453
+217    NEU1   0.3693   0.6619  0.0047  ...   0.1346   0.2016      False    0.6449
+262   PLCB4   0.7416   0.3147  0.0012  ...   0.0619   0.3051      False    0.3555
+140   GOSR2   0.2082   0.6475  0.0100  ...   0.1515   0.1618      False    0.6437
+315  SPTAN1   0.2242   0.3781  0.0333  ...   0.2056   0.1338      False    0.3574
+157   IGF2R   0.3321   0.6857  0.0012  ...   0.0619   0.3411      False    0.6397
+
+[20 rows x 11 columns]
+05:21:15 metabolite layer
+   block                                            pathway  ...  rho_PM     fdr
+60     V                                Tyrosine metabolism  ...  0.0297  0.4663
+21     M                                Tyrosine metabolism  ...  0.0297  0.3594
+24     M      Beta oxidation of phytanic acid (peroxisomal)  ...  0.3420  0.3594
+33     M                          Pentose phosphate pathway  ...  0.2516  0.3594
+63     V      Beta oxidation of phytanic acid (peroxisomal)  ...  0.3420  0.4663
+15     M                       Glycosphingolipid metabolism  ... -0.3804  0.3594
+53     V                               Butanoate metabolism  ...  0.2044  0.4663
+64     V  Phenylalanine, tyrosine and tryptophan biosynt...  ... -0.0111  0.4663
+14     M                               Butanoate metabolism  ...  0.2044  0.3594
+25     M  Phenylalanine, tyrosine and tryptophan biosynt...  ... -0.0111  0.3594
+
+[10 rows x 7 columns]
+                metabolite  AUC_grade  ...  p_T_vs_N  fdr_grade
+46              cdpcholine     0.7971  ...    0.0532     0.0657
+31                     amp     0.7614  ...    0.0000     0.1152
+70                    dgmp     0.7532  ...    0.0915     0.1152
+15   4hydroxyphenyllactate     0.7516  ...    0.9337     0.1152
+89                     gmp     0.7386  ...    0.0000     0.1438
+4            2aminoadipate     0.2646  ...    0.0333     0.1438
+120   nacetylphenylalanine     0.7208  ...    0.0312     0.2065
+136              ornithine     0.2825  ...    0.0000     0.2065
+12      4ethylbenzaldehyde     0.2890  ...    0.0001     0.2300
+35       argininosuccinate     0.3003  ...    0.9715     0.2809
+
+[10 rows x 6 columns]
+                                              pathway  rho_meta  ...    k     fdr
+10                                Bile acid recycling   -0.3486  ...  3.0  0.0022
+63                                  Sulfur metabolism    0.2975  ...  4.0  0.0036
+64  Tricarboxylic acid cycle and glyoxylate/dicarb...    0.2640  ...  4.0  0.0128
+5                     Arginine and proline metabolism   -0.2609  ...  4.0  0.0128
+7       Beta oxidation of phytanic acid (peroxisomal)    0.2802  ...  3.0  0.0138
+62                                 Steroid metabolism   -0.2128  ...  4.0  0.0600
+52                         Prostaglandin biosynthesis    0.2084  ...  4.0  0.0600
+19                              Eicosanoid metabolism    0.2080  ...  4.0  0.0600
+41                    Metabolism of other amino acids   -0.2070  ...  4.0  0.0600
+48                          Pentose phosphate pathway    0.2049  ...  4.0  0.0600
+
+[10 rows x 5 columns]

@@ -1,0 +1,5 @@
+Cohort,Layers,n,High grade (G3/G4),Stage III/IV,Deaths,Median follow-up (days),VHL mutated,PBRM1 mutated,BAP1 mutated
+CPTAC INI (discovery),"G, T, P",103,53 (51.5%),43,20,781,82 (80%),45 (44%),16 (16%)
+CPTAC EXP (confirmatory),"G, T, P",109,39 (35.8%),34,10,854,87 (80%),38 (35%),17 (16%)
+CPTAC four-layer core,"G, T, P, M",50,22 (44.0%),20,6,689,41 (82%),20 (40%),9 (18%)
+TCGA-KIRC,"G, T",502,275 (54.8%),206,167,1189,165/347 (48%),140/347 (40%),37/347 (11%)

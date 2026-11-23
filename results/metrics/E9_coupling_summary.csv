@@ -1,0 +1,15 @@
+,0
+n_genes,5925.0
+median_r_all,0.2882846574214036
+median_r_low,0.25609417320645783
+median_r_high,0.3334463572892494
+median_delta,0.052819126283104534
+frac_genes_lower_coupling_in_high,0.340084388185654
+perm_p_two_sided,0.061938061938061936
+null_median_delta_mean,0.00896715562689042
+median_sd_ratio_RNA_high_vs_low,1.153143780259828
+median_sd_ratio_protein_high_vs_low,1.023935992312858
+median_delta_INI,0.043912107064080136
+median_delta_EXP,0.046606000702330785
+wilcoxon_p_INI,1.3891022111029936e-69
+wilcoxon_p_EXP,1.1497878329519014e-76

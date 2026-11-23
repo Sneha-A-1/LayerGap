@@ -1,0 +1,10 @@
+# Edit these paths to point to your downloads (see data/README.md)
+table_s1: data/raw/cptac_supplement/mmc2.xlsx
+table_s7: data/raw/cptac_supplement/mmc8.xlsx
+cptac_mut_ini: data/raw/cptac_ccrcc/somatic_mutation__harmonized.csv.gz
+cptac_rna_ini: data/raw/cptac_ccrcc/transcriptomics__washu.csv.gz
+cptac_prot_dia: data/raw/pdc/Supplementary_Processed_Proteomic_Data_for_PMID-36563681/CPTAC_ccRCC_global_proteome_DIA.tsv
+gdc_exp: data/raw/cptac_expanded_gdc
+tcga_dir: data/raw/tcga_kirc/kirc_tcga_pan_can_atlas_2018
+camp_dir: data/raw/camp/pancancer_metabolomics/data
+camp_extra_dir: data/raw/camp_extra

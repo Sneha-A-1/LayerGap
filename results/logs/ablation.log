@@ -1,0 +1,39 @@
+05:24:42 === ablation ===
+05:24:57 E7 repeat 0 fold 0
+05:25:12 E7 repeat 0 fold 1
+05:25:26 E7 repeat 0 fold 2
+05:25:41 E7 repeat 0 fold 3
+05:25:55 E7 repeat 0 fold 4
+05:26:09 E7 repeat 1 fold 0
+05:26:23 E7 repeat 1 fold 1
+05:26:37 E7 repeat 1 fold 2
+05:26:50 E7 repeat 1 fold 3
+05:27:04 E7 repeat 1 fold 4
+05:27:17 E7 repeat 2 fold 0
+05:27:31 E7 repeat 2 fold 1
+05:27:44 E7 repeat 2 fold 2
+05:27:58 E7 repeat 2 fold 3
+05:28:11 E7 repeat 2 fold 4
+05:28:25 E7 repeat 3 fold 0
+05:28:40 E7 repeat 3 fold 1
+05:28:55 E7 repeat 3 fold 2
+05:29:11 E7 repeat 3 fold 3
+05:29:26 E7 repeat 3 fold 4
+05:29:40 E7 repeat 4 fold 0
+05:29:53 E7 repeat 4 fold 1
+05:30:07 E7 repeat 4 fold 2
+05:30:21 E7 repeat 4 fold 3
+05:30:37 E7 repeat 4 fold 4
+                             variant    AUC  ...  dAUC_vs_full  p_vs_full
+0                      Full LayerGap  0.718  ...         0.000        NaN
+1             - uncoupling block (U)  0.721  ...         0.003      0.705
+2              - precision weighting  0.712  ...        -0.006      0.658
+3  - pathway constraint (gene-level)  0.728  ...         0.009      0.681
+4                - genomic block (G)  0.699  ...        -0.019      0.417
+5             - transcript block (T)  0.722  ...         0.004      0.475
+6                - protein block (P)  0.718  ...         0.000      0.999
+7                       U block only  0.704  ...        -0.014      0.644
+8                       T block only  0.665  ...        -0.053      0.078
+9                       P block only  0.707  ...        -0.011      0.646
+
+[10 rows x 9 columns]

@@ -1,0 +1,13 @@
+[CPTAC] Table S1: 213 ccRCC cases; INI=103, EXP=110
+[CPTAC] mutation matrix: 213 cases x 8020 genes (non-silent)
+[CPTAC] RNA: INI 103, EXP 110 tumours; 12505 expressed protein-coding genes
+[CPTAC] Protein (DIA): 212 tumours x 6490 proteins (dropped 1872 with >50% missing); 171 adjacent normals
+[CPTAC] metabolite names normalised: 183 entries -> 182 unique metabolites
+[CPTAC] Metabolites: 50 tumours, 7 NATs x 182 metabolites
+[CPTAC] three-layer cohort (genomics+RNA+protein): 212 cases (INI 103, EXP 109)
+[CPTAC] four-layer core (+metabolomics): 50 cases
+[TCGA-KIRC] 502 primary tumours with RNA and grade; 347 with exome-based genomics; high grade 275; deaths 167
+[Atlas ccRCC1] 32 matched clear-cell samples (tumour 32, normal 0); 740 metabolites; 16346 genes
+[Atlas ccRCC2] 22 matched clear-cell samples (tumour 22, normal 0); 747 metabolites; 16428 genes
+[Atlas ccRCC3] 114 matched clear-cell samples (tumour 67, normal 47); 748 metabolites; 18633 genes
+[Atlas ccRCC4] 74 matched clear-cell samples (tumour 51, normal 23); 966 metabolites; 18987 genes

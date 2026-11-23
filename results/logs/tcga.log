@@ -1,0 +1,40 @@
+05:06:39 === tcga ===
+05:06:44 E3 LayerGap AUC=0.675 C=0.645
+05:06:49 E3 LayerGap (G+T only) AUC=0.692 C=0.648
+05:07:02 E3 EN-RNA only AUC=0.701 C=0.606
+05:07:17 E3 EN-concat AUC=0.699 C=0.611
+05:07:29 E3 RF-concat AUC=0.709 C=0.649
+05:07:46 E3 XGB-concat AUC=0.716 C=0.642
+05:07:50 E3 Late-fusion LR AUC=0.725 C=0.644
+05:07:54 E3 MB-PLS-DA AUC=0.662 C=0.604
+05:14:05 E3 MOGONET AUC=0.671 C=0.665
+05:14:15 E3 TMC AUC=0.684 C=0.650
+n                    500.0000
+events               167.0000
+logrank_p              0.0000
+uni_HR                 1.6817
+uni_HR_lo              1.4118
+uni_HR_hi              2.0033
+uni_p                  0.0000
+multi_HR               1.4433
+multi_HR_lo            1.2008
+multi_HR_hi            1.7349
+multi_p                0.0001
+multi_grade_HR         1.3731
+multi_grade_HR_lo      1.1411
+multi_grade_HR_hi      1.6522
+multi_grade_p          0.0008
+dtype: float64
+                method    AUC  PR_AUC  ...  OS_Cindex  dAUC_LayerGap_minus  p_paired
+0             LayerGap  0.675   0.706  ...      0.645                  NaN       NaN
+1  LayerGap (G+T only)  0.692   0.720  ...      0.648               -0.017     0.008
+2          EN-RNA only  0.701   0.711  ...      0.606               -0.025     0.270
+3            EN-concat  0.699   0.712  ...      0.611               -0.023     0.318
+4            RF-concat  0.709   0.730  ...      0.649               -0.033     0.106
+5           XGB-concat  0.716   0.720  ...      0.642               -0.041     0.081
+6       Late-fusion LR  0.725   0.752  ...      0.644               -0.050     0.021
+7            MB-PLS-DA  0.662   0.691  ...      0.604                0.014     0.530
+8              MOGONET  0.671   0.680  ...      0.665                0.005     0.847
+9                  TMC  0.684   0.690  ...      0.650               -0.009     0.692
+
+[10 rows x 11 columns]

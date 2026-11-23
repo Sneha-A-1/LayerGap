@@ -1,0 +1,39 @@
+05:58:32 === main ===
+05:59:58 E1 repeat 0 fold 0 done
+06:01:30 E1 repeat 0 fold 1 done
+06:02:55 E1 repeat 0 fold 2 done
+06:04:26 E1 repeat 0 fold 3 done
+06:05:55 E1 repeat 0 fold 4 done
+06:07:29 E1 repeat 1 fold 0 done
+06:08:59 E1 repeat 1 fold 1 done
+06:10:29 E1 repeat 1 fold 2 done
+06:12:06 E1 repeat 1 fold 3 done
+06:13:37 E1 repeat 1 fold 4 done
+06:15:05 E1 repeat 2 fold 0 done
+06:16:36 E1 repeat 2 fold 1 done
+06:18:04 E1 repeat 2 fold 2 done
+06:19:37 E1 repeat 2 fold 3 done
+06:21:11 E1 repeat 2 fold 4 done
+06:22:39 E1 repeat 3 fold 0 done
+06:24:08 E1 repeat 3 fold 1 done
+06:25:32 E1 repeat 3 fold 2 done
+06:26:59 E1 repeat 3 fold 3 done
+06:28:19 E1 repeat 3 fold 4 done
+06:29:43 E1 repeat 4 fold 0 done
+06:31:12 E1 repeat 4 fold 1 done
+06:32:50 E1 repeat 4 fold 2 done
+06:34:36 E1 repeat 4 fold 3 done
+06:36:14 E1 repeat 4 fold 4 done
+                AUC_mean  PR_AUC_mean  ...  fit_s_mean  infer_ms_per_sample_mean
+method                                 ...                                      
+Late-fusion LR     0.738        0.700  ...       0.913                    11.269
+TMC                0.731        0.680  ...       8.793                     2.649
+MB-PLS-DA          0.725        0.677  ...       0.678                    11.570
+XGB-concat         0.723        0.681  ...      20.062                    11.412
+RF-concat          0.718        0.674  ...       9.546                    14.010
+LayerGap           0.718        0.687  ...       1.460                    10.536
+EN-RNA only        0.707        0.676  ...       7.969                     5.494
+MOGONET            0.695        0.656  ...      19.018                     3.000
+EN-concat          0.689        0.649  ...      18.535                    11.308
+
+[9 rows x 7 columns]

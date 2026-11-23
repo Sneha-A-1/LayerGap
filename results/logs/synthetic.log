@@ -1,0 +1,81 @@
+07:08:05 0 n=60
+07:08:43 0 n=120
+07:10:00 0 n=240
+07:12:13 0 n=480
+07:13:20 0 x1.5
+07:14:24 0 x2.0
+07:15:27 0 prevalence 0.15
+07:16:36 0 transcript-only signal
+07:16:57 1 n=60
+07:17:31 1 n=120
+07:18:49 1 n=240
+07:21:01 1 n=480
+07:22:16 1 x1.5
+07:23:29 1 x2.0
+07:24:30 1 prevalence 0.15
+07:25:41 1 transcript-only signal
+07:26:03 2 n=60
+07:26:38 2 n=120
+07:28:08 2 n=240
+07:30:23 2 n=480
+07:31:30 2 x1.5
+07:32:35 2 x2.0
+07:33:40 2 prevalence 0.15
+07:34:49 2 transcript-only signal
+                                                                AUC  pathway_precision_at_10
+group                  scenario               method                                        
+class imbalance        prevalence 0.15        EN-concat       0.607                    0.367
+                                              Late-fusion LR  0.539                      NaN
+                                              LayerGap        0.983                    0.400
+                                              TMC             0.526                      NaN
+                                              XGB-concat      0.547                      NaN
+missing protein (test) 100% missing           EN-concat       0.499                      NaN
+                                              Late-fusion LR  0.545                      NaN
+                                              LayerGap        0.836                      NaN
+                                              TMC             0.505                      NaN
+                                              XGB-concat      0.506                      NaN
+                       25% missing            EN-concat       0.702                      NaN
+                                              Late-fusion LR  0.642                      NaN
+                                              LayerGap        0.972                      NaN
+                                              TMC             0.539                      NaN
+                                              XGB-concat      0.612                      NaN
+                       50% missing            EN-concat       0.652                      NaN
+                                              Late-fusion LR  0.621                      NaN
+                                              LayerGap        0.938                      NaN
+                                              TMC             0.536                      NaN
+                                              XGB-concat      0.579                      NaN
+noise                  x1.5                   EN-concat       0.542                    0.233
+                                              Late-fusion LR  0.570                      NaN
+                                              LayerGap        0.836                    0.467
+                                              TMC             0.521                      NaN
+                                              XGB-concat      0.537                      NaN
+                       x2.0                   EN-concat       0.497                    0.233
+                                              Late-fusion LR  0.529                      NaN
+                                              LayerGap        0.715                    0.500
+                                              TMC             0.512                      NaN
+                                              XGB-concat      0.506                      NaN
+sample size            n=120                  EN-concat       0.527                    0.300
+                                              Late-fusion LR  0.582                      NaN
+                                              LayerGap        0.984                    0.400
+                                              TMC             0.528                      NaN
+                                              XGB-concat      0.547                      NaN
+                       n=240                  EN-concat       0.769                    0.500
+                                              Late-fusion LR  0.677                      NaN
+                                              LayerGap        0.994                    0.467
+                                              TMC             0.547                      NaN
+                                              XGB-concat      0.646                      NaN
+                       n=480                  EN-concat       0.938                    0.500
+                                              Late-fusion LR  0.820                      NaN
+                                              LayerGap        0.997                    0.533
+                                              TMC             0.607                      NaN
+                                              XGB-concat      0.766                      NaN
+                       n=60                   EN-concat       0.528                    0.200
+                                              Late-fusion LR  0.556                      NaN
+                                              LayerGap        0.924                    0.433
+                                              TMC             0.537                      NaN
+                                              XGB-concat      0.531                      NaN
+signal type            transcript-only signal EN-concat       0.929                      NaN
+                                              Late-fusion LR  0.852                      NaN
+                                              LayerGap        0.999                      NaN
+                                              TMC             0.605                      NaN
+                                              XGB-concat      0.741                      NaN

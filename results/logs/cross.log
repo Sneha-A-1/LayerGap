@@ -1,0 +1,22 @@
+05:15:20 === cross ===
+05:22:30 E2 INI->EXP done
+05:24:39 E2 EXP->INI done
+   train test          method    AUC  AUC_lo  AUC_hi    MCC
+0    INI  EXP        LayerGap  0.766   0.660   0.863  0.510
+1    INI  EXP     EN-RNA only  0.747   0.648   0.836  0.371
+2    INI  EXP       EN-concat  0.705   0.596   0.803  0.204
+3    INI  EXP       RF-concat  0.728   0.618   0.831  0.305
+4    INI  EXP      XGB-concat  0.727   0.622   0.819  0.291
+5    INI  EXP  Late-fusion LR  0.760   0.658   0.852  0.332
+6    INI  EXP       MB-PLS-DA  0.746   0.640   0.839  0.371
+7    INI  EXP         MOGONET  0.761   0.660   0.856  0.405
+8    INI  EXP             TMC  0.736   0.626   0.830  0.291
+9    EXP  INI        LayerGap  0.793   0.698   0.872  0.334
+10   EXP  INI     EN-RNA only  0.735   0.633   0.825  0.322
+11   EXP  INI       EN-concat  0.751   0.650   0.840  0.371
+12   EXP  INI       RF-concat  0.744   0.639   0.838  0.383
+13   EXP  INI      XGB-concat  0.734   0.632   0.826  0.402
+14   EXP  INI  Late-fusion LR  0.782   0.691   0.863  0.412
+15   EXP  INI       MB-PLS-DA  0.785   0.691   0.867  0.383
+16   EXP  INI         MOGONET  0.753   0.651   0.844  0.411
+17   EXP  INI             TMC  0.765   0.666   0.851  0.392

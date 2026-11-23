@@ -1,0 +1,15 @@
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+torch==2.15.0
+lifelines==0.30.3
+statsmodels==0.15.0
+networkx==3.7
+matplotlib==3.11.2
+seaborn==0.13.2
+openpyxl==3.1.5
+pyyaml>=6.0
+requests>=2.31
+cptac==1.5.14

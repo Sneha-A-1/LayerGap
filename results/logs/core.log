@@ -1,0 +1,32 @@
+06:38:47 === core ===
+06:39:32 E4 repeat 0 fold 0
+06:40:11 E4 repeat 0 fold 1
+06:40:51 E4 repeat 0 fold 2
+06:41:28 E4 repeat 0 fold 3
+06:42:04 E4 repeat 0 fold 4
+06:42:44 E4 repeat 1 fold 0
+06:43:22 E4 repeat 1 fold 1
+06:44:02 E4 repeat 1 fold 2
+06:44:44 E4 repeat 1 fold 3
+06:45:23 E4 repeat 1 fold 4
+06:46:01 E4 repeat 2 fold 0
+06:46:39 E4 repeat 2 fold 1
+06:47:18 E4 repeat 2 fold 2
+06:47:56 E4 repeat 2 fold 3
+06:48:36 E4 repeat 2 fold 4
+06:49:12 E4 repeat 3 fold 0
+06:49:47 E4 repeat 3 fold 1
+06:50:28 E4 repeat 3 fold 2
+06:51:08 E4 repeat 3 fold 3
+06:51:46 E4 repeat 3 fold 4
+06:52:26 E4 repeat 4 fold 0
+06:53:09 E4 repeat 4 fold 1
+06:53:48 E4 repeat 4 fold 2
+06:54:26 E4 repeat 4 fold 3
+06:55:02 E4 repeat 4 fold 4
+                   method   mean    std
+0          EN-concat (+M)  0.731  0.045
+1     Late-fusion LR (+M)  0.753  0.017
+2      LayerGap (G,T,P,U)  0.717  0.015
+3  LayerGap (G,T,P,U,M,V)  0.700  0.011
+4                TMC (+M)  0.733  0.033

@@ -1,0 +1,13 @@
+                                               stage  ...      MB
+0                            Load harmonised cohorts  ...     NaN
+1    Pathway encoder fit (b_g estimation, gene sets)  ...     NaN
+2     Pathway encoding of training samples (G,T,P,U)  ...     NaN
+3            Single block model, C selection + 1 fit  ...     NaN
+4  Bootstrap ensemble, 20 fits (uncertainty estim...  ...     NaN
+5    Full LayerGap training (4 blocks, OOF stacking)  ...     NaN
+6  Inference, 42 samples (encoding + ensemble + f...  ...     NaN
+7    Inference without bootstrap ensemble (n_boot=1)  ...     NaN
+8  Single-patient report (probability, uncertaint...  ...     NaN
+9            Peak Python memory during training (MB)  ...  64.281
+
+[10 rows x 4 columns]

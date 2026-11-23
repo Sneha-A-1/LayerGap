@@ -1,0 +1,5 @@
+layer,stage,silhouette_by_subcohort,n_features
+RNA,before,0.5942093426651794,12505
+RNA,after,-0.0009807197700889066,12505
+Protein,before,0.1430495020851826,6490
+Protein,after,-0.0019442578571541506,6490

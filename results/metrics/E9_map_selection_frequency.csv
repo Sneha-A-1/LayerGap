@@ -1,0 +1,98 @@
+,selection_frequency
+Chondroitin sulfate degradation,0.9333333333333333
+Fatty acid biosynthesis (even-chain),0.7666666666666667
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.7666666666666667
+HALLMARK_MYOGENESIS,0.7
+Heparan sulfate degradation,0.7
+HALLMARK_APICAL_SURFACE,0.6
+HALLMARK_ALLOGRAFT_REJECTION,0.5666666666666667
+N-glycan metabolism,0.5666666666666667
+Inositol phosphate metabolism,0.5333333333333333
+Protein assembly,0.5333333333333333
+HALLMARK_PROTEIN_SECRETION,0.5
+Glycosphingolipid biosynthesis-ganglio series,0.4666666666666667
+Glutathione metabolism,0.4666666666666667
+Fatty acid biosynthesis,0.4666666666666667
+HALLMARK_TGF_BETA_SIGNALING,0.43333333333333335
+Tyrosine metabolism,0.43333333333333335
+"Glycine, serine and threonine metabolism",0.43333333333333335
+Galactose metabolism,0.4
+Protein degradation,0.4
+HALLMARK_MTORC1_SIGNALING,0.4
+Keratan sulfate degradation,0.3333333333333333
+Beta oxidation of unsaturated fatty acids (n-7) (peroxisomal),0.3333333333333333
+Beta oxidation of unsaturated fatty acids (n-9) (peroxisomal),0.3333333333333333
+Pentose and glucuronate interconversions,0.3333333333333333
+HALLMARK_APICAL_JUNCTION,0.3
+Sphingolipid metabolism,0.3
+Butanoate metabolism,0.26666666666666666
+Thiamine metabolism,0.26666666666666666
+HALLMARK_WNT_BETA_CATENIN_SIGNALING,0.26666666666666666
+Folate metabolism,0.23333333333333334
+Omega-3 fatty acid metabolism,0.23333333333333334
+Beta oxidation of even-chain fatty acids (peroxisomal),0.23333333333333334
+Beta oxidation of di-unsaturated fatty acids (n-6) (peroxisomal),0.23333333333333334
+Beta-alanine metabolism,0.2
+Acylglycerides metabolism,0.2
+Phosphatidylinositol phosphate metabolism,0.2
+Androgen metabolism,0.2
+HALLMARK_MITOTIC_SPINDLE,0.16666666666666666
+HALLMARK_HEME_METABOLISM,0.16666666666666666
+HALLMARK_INFLAMMATORY_RESPONSE,0.16666666666666666
+Glycosphingolipid metabolism,0.16666666666666666
+HALLMARK_UV_RESPONSE_DN,0.16666666666666666
+Fructose and mannose metabolism,0.16666666666666666
+HALLMARK_KRAS_SIGNALING_DN,0.13333333333333333
+Biopterin metabolism,0.13333333333333333
+HALLMARK_MYC_TARGETS_V2,0.13333333333333333
+Lipoic acid metabolism,0.13333333333333333
+Fatty acid activation (cytosolic),0.13333333333333333
+Ascorbate and aldarate metabolism,0.1
+HALLMARK_HEDGEHOG_SIGNALING,0.1
+Beta oxidation of phytanic acid (peroxisomal),0.1
+Starch and sucrose metabolism,0.1
+HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY,0.1
+Glycerolipid metabolism,0.1
+C5-branched dibasic acid metabolism,0.1
+Serotonin and melatonin biosynthesis,0.1
+Lysine metabolism,0.06666666666666667
+Ether lipid metabolism,0.06666666666666667
+HALLMARK_INTERFERON_GAMMA_RESPONSE,0.06666666666666667
+Fatty acid activation (endoplasmic reticular),0.06666666666666667
+Terpenoid backbone biosynthesis,0.06666666666666667
+HALLMARK_APOPTOSIS,0.06666666666666667
+Porphyrin metabolism,0.06666666666666667
+Fatty acid metabolism,0.06666666666666667
+Cholesterol biosynthesis 1 (Bloch pathway),0.06666666666666667
+HALLMARK_COAGULATION,0.06666666666666667
+Beta oxidation of poly-unsaturated fatty acids (mitochondrial),0.06666666666666667
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION,0.06666666666666667
+Pentose phosphate pathway,0.06666666666666667
+HALLMARK_MYC_TARGETS_V1,0.06666666666666667
+Purine metabolism,0.06666666666666667
+Arachidonic acid metabolism,0.06666666666666667
+HALLMARK_NOTCH_SIGNALING,0.06666666666666667
+Nicotinate and nicotinamide metabolism,0.06666666666666667
+HALLMARK_E2F_TARGETS,0.06666666666666667
+"Alanine, aspartate and glutamate metabolism",0.03333333333333333
+HALLMARK_DNA_REPAIR,0.03333333333333333
+Vitamin E metabolism,0.03333333333333333
+HALLMARK_TNFA_SIGNALING_VIA_NFKB,0.03333333333333333
+HALLMARK_KRAS_SIGNALING_UP,0.03333333333333333
+HALLMARK_PEROXISOME,0.03333333333333333
+Cholesterol biosynthesis 3 (Kandustch-Russell pathway),0.03333333333333333
+HALLMARK_ADIPOGENESIS,0.03333333333333333
+HALLMARK_P53_PATHWAY,0.03333333333333333
+Glycerophospholipid metabolism,0.03333333333333333
+Prostaglandin biosynthesis,0.03333333333333333
+Beta oxidation of branched-chain fatty acids (mitochondrial),0.03333333333333333
+Steroid metabolism,0.03333333333333333
+Linoleate metabolism,0.03333333333333333
+HALLMARK_HYPOXIA,0.03333333333333333
+Cholesterol metabolism,0.03333333333333333
+Beta oxidation of odd-chain fatty acids (mitochondrial),0.03333333333333333
+Beta oxidation of unsaturated fatty acids (n-7) (mitochondrial),0.03333333333333333
+Beta oxidation of unsaturated fatty acids (n-9) (mitochondrial),0.03333333333333333
+Pantothenate and CoA metabolism,0.03333333333333333
+HALLMARK_IL6_JAK_STAT3_SIGNALING,0.03333333333333333
+Glycolysis / Gluconeogenesis,0.03333333333333333
